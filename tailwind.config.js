@@ -38,30 +38,6 @@ const config = {
         handwriting: ['var(--font-handwriting)'],
         monalisa: ['var(--font-monalisa)'],
       },
-      // typography: (theme: any) => ({
-      //   DEFAULT: {
-      //     css: {
-      //       pre: {
-      //         backgroundColor: theme('colors.gray.100'),
-      //         color: theme('colors.gray.900'),
-      //         padding: theme('spacing.4'),
-      //         borderRadius: theme('borderRadius.md'),
-      //         fontSize: theme('fontSize.sm')[0],
-      //         lineHeight: theme('lineHeight.snug'),
-      //       },
-      //       code: {
-      //         color: theme('colors.indigo.600'),
-      //         fontWeight: '600',
-      //       },
-      //       'code::before': {
-      //         content: '""',
-      //       },
-      //       'code::after': {
-      //         content: '""',
-      //       },
-      //     },
-      //   },
-      // }),
       backgroundImage: {
         'letter-top': 'linear-gradient(360deg, #130832 0%, #722186 100%)',
         'letter-middle': 'linear-gradient(1.77deg, #1A1056 1.57%, #8F1BAC 98.43%)',
@@ -79,7 +55,6 @@ const config = {
         monalisa: ['var(--font-monalisa)'],
       },
       colors: {
-        'letter-bottom': '#68147D',
         'bg-default': '#07070C',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
