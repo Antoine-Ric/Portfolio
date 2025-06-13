@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Menu from "./Menu/Menu";
+import MobileMenu from "./Menu/MobileMenu";
 
 export default function Hero() {
   return (
@@ -8,7 +9,8 @@ export default function Hero() {
       className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 
       [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
     >
-      <Menu />
+      {/* <Menu /> */}
+      <MobileMenu />
     </div>
   );
 }

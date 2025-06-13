@@ -2,7 +2,8 @@ import Image from "next/image";
 
 const inActiveStyle = "text-white/50";
 const activeStyle =
-  "bg-white text-black rounded-full px-6 py-2 border-[1px] border-white/50";
+  "bg-gradient-to-b from-white/40 to-[#2F2D2D]/20 px-4 py-1 rounded-full";
+// "bg-white text-black rounded-full px-6 py-2 border-[1px] border-white/50";
 
 export default function Menu() {
   return (
@@ -16,8 +17,14 @@ export default function Menu() {
         />
         <div className="text-white text-xl font-bold"> Ricardi Antoine </div>
       </div>
+
+      {/* Menu items */}
+
       <div className="text-white text-xl font-semibold flex items-center gap-4 bg-gray-800/70 px-4 py-2 rounded-full">
-        <div className={activeStyle}>Home</div>
+        <div>
+          <div className={activeStyle}>Home</div>
+        </div>
+
         <div className={inActiveStyle}>About Me</div>
         <div className={inActiveStyle}>Projects</div>
         <div className={inActiveStyle}>Blog</div>
