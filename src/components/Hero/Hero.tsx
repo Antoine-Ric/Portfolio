@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Menu from "./Menu/Menu";
 import MobileMenu from "./Menu/MobileMenu";
+import HeroCTA from "./HeroCTA";
 
 export default function Hero() {
   return (
@@ -11,6 +12,7 @@ export default function Hero() {
     >
       {/* <Menu /> */}
       <MobileMenu />
+      <HeroCTA />
     </div>
   );
 }
